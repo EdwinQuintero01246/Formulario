@@ -112,7 +112,7 @@ $(document).ready(function(){
     console.log("cargo");
     $.ajax({
         //url: '{{URL::to("ajax/form.php?accion=GetData")}}',
-        url: "../Formulario/ajax/form.php?accion=GetData",
+        url: "ajax/form.php?accion=GetData",
         method:"POST",
         dataType:"json",
         //data: dataLLave,
