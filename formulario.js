@@ -82,7 +82,7 @@ function registrarse(){
     console.log("entro");
     let parameters = $("#formulario").serialize();
     console.log(parameters);
-    /*$.ajax({
+    $.ajax({
         url:"ajax/form.php?accion=SetData",
         method:"POST",
         data: parameters,
@@ -105,7 +105,7 @@ function registrarse(){
         error:function(answer){
             console.log("Error");
         }
-    });*/
+    });
 }
 
 $(document).ready(function(){
