@@ -109,6 +109,7 @@ function registrarse(){
 }
 
 $(document).ready(function(){
+    console.log("cargo");
     $.ajax({
         url:"ajax/form.php?accion=GetData",
         method:"POST",
