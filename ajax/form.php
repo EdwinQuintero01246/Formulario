@@ -1,5 +1,5 @@
 <?php
- switch($_GET["accion"]){
+ /*switch($_GET["accion"]){
   case 'SetData':
     include("../Class/class-form.php");
     echo Form::SetForm($_POST);
@@ -8,6 +8,8 @@
   case 'GetData':
     include("../Class/class-form.php");
     echo Form::GetForm();
-  break;
+  break;*/
+  include("../Class/class-form.php");
+  echo Form::GetForm();
  };
 ?>
