@@ -2,7 +2,7 @@
         $nombre= $_POST['nombre'];
         $apellido= $_POST['apellido'];
         $direccionEmail= $_POST['correo'];
-        $body = "Estimado Sr: ".$nombre." ".$apellido." , Este es el correo de confirmación de que todo se puede, se ha registrado correctamente a nuestro sitio web, Alumno: Carlos José Pérez, Numero de cuenta: 20161005458";
+        $body = "Estimado Sr: ".$nombre." ".$apellido." , Este es el correo de confirmación de que todo se puede, se ha registrado correctamente a nuestro sitio web, Alumno: Carlos José Pérez, Numero de cuenta: 20161005458, sus datos son";
     
         use PHPMailer\PHPMailer\PHPMailer;
         use PHPMailer\PHPMailer\Exception;
