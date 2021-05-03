@@ -6,8 +6,9 @@
     ##print("entro");
   break;
   case 'GetData':
-    include("../Class/class-form.php");
-    echo Form::GetForm();
+    #include("../Class/class-form.php");
+    #echo Form::GetForm();
+    print("entro");
   break;
  };
 ?>
