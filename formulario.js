@@ -111,7 +111,8 @@ function registrarse(){
 $(document).ready(function(){
     console.log("cargo");
     $.ajax({
-        url:"ajax/form.php?accion=GetData",
+        url: '{{URL::to("ajax/form.php?accion=GetData")}}',
+        //url: '{{ URL::to("ajax/populateApiAuth") }}
         method:"POST",
         dataType:"json",
         //data: dataLLave,
