@@ -112,8 +112,8 @@ $(document).ready(function(){
     console.log("cargo");
     $.ajax({
         //url: '{{URL::to("ajax/form.php?accion=GetData")}}',
-        url: "https://edwinquintero01246.github.io/Formulario/ajax/form.php?accion=GetData",
-        method:"POST",
+        url: "ajax/form.php?accion=GetData",
+        //method:"POST",
         dataType:"json",
         //data: dataLLave,
         success:function(answer){
