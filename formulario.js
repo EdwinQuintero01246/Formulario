@@ -84,7 +84,7 @@ function registrarse(){
     console.log(parameters);
     $.ajax({
         url:"ajax/form.php?accion=SetData",
-        method:"POST",
+        method:"GET",
         data: parameters,
         //dataType:"json",
         success:function(answer){
@@ -94,7 +94,7 @@ function registrarse(){
             console.log("Error");
         }
     });
-    $.ajax({
+    /*$.ajax({
         url:"ajax/form2.php",
         method:"POST",
         data: parameters,
@@ -105,7 +105,7 @@ function registrarse(){
         error:function(answer){
             console.log("Error");
         }
-    });
+    });*/
 }
 
 $(document).ready(function(){
