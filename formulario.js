@@ -129,9 +129,9 @@ $(document).ready(function(){
             </tr>
         `));
             }
-        },
+        }/*,
         error:function(answer){
             console.log("Error");
-        }
+        }*/
     });
 })
