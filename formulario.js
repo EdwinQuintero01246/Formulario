@@ -113,7 +113,7 @@ $(document).ready(function(){
     $.ajax({
         //url: '{{URL::to("ajax/form.php?accion=GetData")}}',
         url: "ajax/form.php?accion=GetData",
-        //method:"POST",
+        method:"GET",
         dataType:"json",
         //data: dataLLave,
         success:function(answer){
